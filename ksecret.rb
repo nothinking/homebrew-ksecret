@@ -17,6 +17,7 @@ class Ksecret < Formula
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     bin.install 'sh/ksecret-status.sh' => 'ksecret-status'
+    bin.install 'sh/ksecret-search.sh' => 'ksecret-search'
   end
 
   test do
