@@ -4,7 +4,7 @@
 class Ksecret < Formula
   desc ""
   homepage ""
-  url "https://github.com/nothinking/homebrew-ksecret/archive/refs/tags/v0.0.1.tar.gz"
+  url "https://github.com/nothinking/homebrew-ksecret/archive/refs/tags/v0.0.2.tar.gz"
   sha256 "d7740c806579c0abf0645317357033b06ac4a656cdc592940f52b7a32966601d"
   license ""
 
