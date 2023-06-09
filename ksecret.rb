@@ -4,8 +4,8 @@
 class Ksecret < Formula
   desc ""
   homepage ""
-  url "https://github.com/nothinking/homebrew-ksecret/archive/refs/tags/v0.0.4.tar.gz"
-  sha256 "00e8bf67a2410cd833f177383ea37121b249261fb66a792bc799851db09496df"
+  url "https://github.com/nothinking/homebrew-ksecret/archive/refs/tags/v0.0.5.tar.gz"
+  sha256 "d7740c806579c0abf0645317357033b06ac4a656cdc592940f52b7a32966601d"
   license ""
 
   # depends_on "cmake" => :build
