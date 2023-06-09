@@ -16,8 +16,10 @@ class Ksecret < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    bin.install 'sh/ksecret.sh' => 'ksecret'
     bin.install 'sh/ksecret-status.sh' => 'ksecret-status'
     bin.install 'sh/ksecret-search.sh' => 'ksecret-search'
+    bin.install 'sh/ksecret-update.sh' => 'ksecret-update'
   end
 
   test do
