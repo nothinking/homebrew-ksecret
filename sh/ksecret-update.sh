@@ -18,13 +18,13 @@ then
 fi
 
 # 진행여부 확인
-read -p "$1 인증서를 갱신하시겠습니까?(Y|y) " -n 1 -r
+read -p "$SECRET_NAME 인증서를 갱신하시겠습니까?(Y|y) " -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  echo "$1 인증서 갱신을 시작합니다."
+  echo "$SECRET_NAME 인증서 갱신을 시작합니다."
 else
-  echo "$1 인증서 갱신을 취소합니다."
+  echo "$SECRET_NAME 인증서 갱신을 취소합니다."
   exit 1
 fi
 
