@@ -1,4 +1,4 @@
-# k8s secret 관련 헬퍼 스크립트
+# k8s secret 관련 Hombrew 헬퍼 스크립트
 
 ## 설치 방법
 ```shell
