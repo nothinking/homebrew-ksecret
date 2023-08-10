@@ -4,8 +4,8 @@
 class Ksecret < Formula
   desc ""
   homepage ""
-  url "https://github.com/nothinking/homebrew-ksecret/archive/refs/tags/v0.0.6.tar.gz"
-  sha256 "693a77368db3b60d5fe2bc49d5e404084723a9f77fdfc71de2207fd60f3a4995"
+  url "https://github.com/nothinking/homebrew-ksecret/archive/refs/tags/v0.0.8.tar.gz"
+  sha256 "a94ef0feb6a8aedf1ff023e65896661409a6f1479af40ddae276d901cdb1effc"
   license ""
 
   # depends_on "cmake" => :build
@@ -20,6 +20,7 @@ class Ksecret < Formula
     bin.install 'sh/ksecret-status.sh' => 'ksecret-status'
     bin.install 'sh/ksecret-search.sh' => 'ksecret-search'
     bin.install 'sh/ksecret-update.sh' => 'ksecret-update'
+    bin.install 'sh/ksecret-copy.sh' => 'ksecret-copy'
   end
 
   test do
