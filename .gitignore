@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Homebrew
+*.bottle.*
+
+# Shell script backup
+*~
+
+# IDE
+.idea/
+.vscode/
+
+# Release archives
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+
+# 기타
+*.swp 
