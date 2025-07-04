@@ -29,25 +29,3 @@ ksecret delete -n <secret name>
 ```shell
 shasum -a 256 xxx.tar.gz
 ```
-
-## 로컬에서 테스트 및 검증
-
-1. 포뮬러를 직접 설치하여 동작을 확인합니다.
-   ```sh
-   brew install --build-from-source ./ksecret.rb
-   ```
-2. 포뮬러 문법 및 스타일을 체크합니다.
-   - 먼저 tap을 추가합니다(최초 1회만 필요).
-     ```sh
-     brew tap nothinking/ksecret
-     ```
-   - 그 다음, 포뮬러 이름으로 audit을 실행합니다.
-     ```sh
-     brew audit --strict ksecret
-     ```
-3. 빌드 및 설치 테스트를 진행합니다.
-   ```sh
-   brew test ./ksecret.rb
-   ```
-
-위 과정을 통해 실제로 설치와 동작, 포뮬러 규칙 준수 여부를 모두 확인할 수 있습니다.
