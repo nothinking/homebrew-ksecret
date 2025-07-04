@@ -15,6 +15,8 @@ ksecret status <secret name>
 ksecret update -n <secret name> -c <cert> -k <key>
 # 다른 네임스페이스에 설치된 인증서 복사하기
 ksecret copy -n <secret name> -s <source namespace> -t <target namespace>
+# 모든 네임스페이스에서 시크릿 삭제하기
+ksecret delete -n <secret name>
 ```
 
 ## 포뮬러 수정 방법
