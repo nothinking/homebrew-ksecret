@@ -2,7 +2,8 @@
 
 ## 설치 방법
 ```shell
-brew install nothinking/ksecret/ksecret
+brew tab nothinking/ksecret
+brew install ksecret
 ```
 
 ## 사용 방법
@@ -49,7 +50,7 @@ ksecret delete -n my-cert
 7. Homebrew에서 업그레이드합니다:
 
 ```shell
-brew upgrade nothinking/ksecret/ksecret
+brew upgrade ksecret
 ```
 
 ### sha256 값 생성 방법
