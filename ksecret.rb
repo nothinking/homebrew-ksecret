@@ -21,6 +21,7 @@ class Ksecret < Formula
     bin.install 'sh/ksecret-search.sh' => 'ksecret-search'
     bin.install 'sh/ksecret-update.sh' => 'ksecret-update'
     bin.install 'sh/ksecret-copy.sh' => 'ksecret-copy'
+    bin.install 'sh/ksecret-delete.sh' => 'ksecret-delete'
   end
 
   test do
